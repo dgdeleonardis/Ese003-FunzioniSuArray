@@ -53,13 +53,12 @@ int minimo(int valori[], int dimensione){
 }
 
 float media(int valori[], int dimensione){
-    int somma = 0;
     int i;
-    float media;
+    float risultato = 0;
     for (i = 0; i < N; i++) {
-        somma = somma + valori[i];
+        risultato = risultato + valori[i];
     }
-    media = (float) somma / N;
-    return media;
+    risultato = risultato / N;
+    return risultato;
 }
 
